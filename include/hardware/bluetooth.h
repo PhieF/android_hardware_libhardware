@@ -592,7 +592,7 @@ typedef struct {
      */
     void (*interop_database_add)(uint16_t feature, const bt_bdaddr_t *addr, size_t len);
     /** BT stack Test interface */
-    const void* (*get_testapp_interface)(int test_app_profile);
+    //const void* (*get_testapp_interface)(int test_app_profile);
 } bt_interface_t;
 
 /** TODO: Need to add APIs for Service Discovery, Service authorization and
